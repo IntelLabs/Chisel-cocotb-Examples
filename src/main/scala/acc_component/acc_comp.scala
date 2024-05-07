@@ -103,7 +103,7 @@ class DotProduct(val aBits: Int = 8, val bBits: Int = 8, val InSize: Int) extend
 //Masked memory with a single port for read and write
 class MemMaskedSinglePort(val bBits: Int = 8, val InSize: Int, val neurons: Int) extends Module {
   
-  val addrBW = log2Ceil(neurons)   // calculating the address bitwidth, see if need +1
+  val addrBW = log2Ceil(neurons)   // calculating the address bitwidth
   val maskSize = InSize + 1        // number of data to read/write using the port (+1 for bias data)
 
   val io = IO(new Bundle {

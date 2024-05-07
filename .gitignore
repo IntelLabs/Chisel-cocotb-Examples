@@ -20,10 +20,7 @@ cocotb_scala_dir/
 .venv/
 __pycache__/
 
-novas.conf
-novas.rc
 sim_build/
-verdiLog
 htmlcov/
 junit.xml
 coverage.xml
