@@ -1,5 +1,5 @@
 # Copyright (c) 2024 Intel Corporation
-# SPDX-License-Identifier: Apache License, Version 2.0
+# SPDX-License-Identifier: Apache-2.0
 
 FROM ubuntu:22.04
 ENV TZ=America/Los_Angeles
